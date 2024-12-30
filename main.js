@@ -323,7 +323,7 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "small");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Copyright\u00A9 2020-2024 Stavros Grigoriou ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Copyright\u00A9 2020-2025 Stavros Grigoriou ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -564,7 +564,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 16, vars: 6, consts: [[1, "container"], [1, "row"], [1, "col"], [1, "col-md-auto"], ["src", "/assets/profile.png", 2, "border-radius", "50%", "width", "80px", "height", "80px"], [1, "col-xs-10", 2, "padding-left", "5px", "padding-right", "100px"], ["class", "row", 4, "ngIf"], ["class", "row top-buffer", 4, "ngIf"], ["title", "Projects count", 1, "fa", "fa-folder", 2, "padding-right", "10px"], ["styleClass", "custom-spinner", "strokeWidth", "8", "animationDuration", ".5s"], [1, "row", "top-buffer"], ["title", "Total stars", 1, "fa", "fa-star", 2, "padding-right", "10px"], ["title", "Total forks", 1, "fa", "fa-code-fork", 2, "padding-right", "10px"], ["title", "Projects count", 1, "fa", "fa-folder"], ["title", "Total stars", 1, "fa", "fa-star"], ["title", "Total forks", 1, "fa", "fa-code-fork"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 16, vars: 6, consts: [[1, "container"], [1, "row"], [1, "col"], [1, "col-md-auto"], ["src", "/assets/profile.jpeg", 2, "border-radius", "50%", "width", "80px", "height", "80px"], [1, "col-xs-10", 2, "padding-left", "5px", "padding-right", "100px"], ["class", "row", 4, "ngIf"], ["class", "row top-buffer", 4, "ngIf"], ["title", "Projects count", 1, "fa", "fa-folder", 2, "padding-right", "10px"], ["styleClass", "custom-spinner", "strokeWidth", "8", "animationDuration", ".5s"], [1, "row", "top-buffer"], ["title", "Total stars", 1, "fa", "fa-star", 2, "padding-right", "10px"], ["title", "Total forks", 1, "fa", "fa-code-fork", 2, "padding-right", "10px"], ["title", "Projects count", 1, "fa", "fa-folder"], ["title", "Total stars", 1, "fa", "fa-star"], ["title", "Total forks", 1, "fa", "fa-code-fork"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -831,7 +831,7 @@ class ProjectsComponent {
     }
 }
 ProjectsComponent.ɵfac = function ProjectsComponent_Factory(t) { return new (t || ProjectsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
-ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 19, vars: 18, consts: [[1, "container"], [1, "container", 2, "justify-content", "center", "align-content", "center", "text-align", "center", "padding-bottom", "10px"], ["href", "https://github.com/stav121"], [3, "isLoading", "project", "projectName"], [3, "isLoading", "projectName", "project"], ["href", "https://github.com/stav121?tab=repositories"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
+ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 18, vars: 15, consts: [[1, "container"], [1, "container", 2, "justify-content", "center", "align-content", "center", "text-align", "center", "padding-bottom", "10px"], ["href", "https://github.com/stav121"], [3, "isLoading", "project", "projectName"], [3, "isLoading", "projectName", "project"], ["href", "https://github.com/stav121?tab=repositories"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " all my ");
@@ -849,11 +849,10 @@ ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "app-git", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "app-git", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "app-git", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "app-git", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "...and much more!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "...and much more!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -868,8 +867,6 @@ ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("isLoading", ctx.warcParserLoading)("projectName", "warc-parser")("project", ctx.warcParser);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("isLoading", ctx.warcSeLoading)("projectName", "warc-se")("project", ctx.warcSe);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("isLoading", ctx.tripaLoading)("projectName", "tripa")("project", ctx.tripa);
     } }, encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ProjectsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
